@@ -23,10 +23,16 @@ article {
     padding: 5px;
 }
 .szamok {
-   
+   grid-area: szam;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+
+   grid-gap: 5px;
 }
 .szamok button {
-    
+   width: 30px; 
+   height: 30px;
 }
 .muvjelek {
     grid-area: muv;
